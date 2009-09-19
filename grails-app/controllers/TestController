@@ -1,0 +1,11 @@
+class TestController
+{
+	
+	def index = {
+	 println "ทด"
+	 render "Test"
+	 System.out.println("Encoding: " + System.getProperty("file.encoding"));
+    System.out.println("Charset: " + java.nio.charset.Charset.defaultCharset());
+	 }
+	
+}
